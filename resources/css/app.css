@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+.parent img {
+    height:50rem;
+    object-fit: contain;
+    width: 50rem;
+}
+.parent p:hover{
+    text-shadow: -1px 1px 0 #00ff0d,
+    1px 1px 0 #ff1e00,
+    1px -1px 0 #00fff7,
+    -1px -1px 0 #aca700;
+    transition: 1s;
+}
